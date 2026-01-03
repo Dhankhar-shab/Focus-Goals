@@ -1,0 +1,102 @@
+/* =============================================
+   Study Focus - Dark Discipline Design System
+   Calm, Professional, Balanced
+   ============================================= */
+
+/* === Color Variables ===
+   Background:     #121212, #161616
+   Surface:        #1E1E1E, #222222
+   Accent/Success: #4A7C59 (muted green)
+   Warning:        #C9A227 (warm amber)
+   Subtle Text:    #9A9A9A
+   Primary Text:   #EAEAEA
+   Border:         #2D2D2D
+*/
+
+* {
+    font-family: 'SF Pro', 'SF Pro Text', 'SF Pro Display', 'Inter', 'system-ui', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+QMainWindow {
+    background-color: #121212;
+}
+
+QWidget {
+    font-family: 'SF Pro', 'SF Pro Text', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #EAEAEA;
+    background: transparent;
+}
+
+/* === Scrollbars - Whisper Thin === */
+QScrollBar:vertical {
+    background: transparent;
+    width: 4px;
+    margin: 4px 2px;
+}
+
+QScrollBar::handle:vertical {
+    background: #2D2D2D;
+    border-radius: 2px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #3D3D3D;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* === Inputs - Muted and Soft === */
+QLineEdit, QComboBox, QSpinBox, QDateEdit {
+    padding: 8px 12px;
+    border: 1px solid #2D2D2D;
+    border-radius: 8px;
+    background-color: #1A1A1A;
+    color: #EAEAEA;
+    font-size: 12px;
+}
+
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QDateEdit:focus {
+    border: 1px solid #3D3D3D;
+    background-color: #1E1E1E;
+}
+
+/* === Checkboxes - Calm and Small === */
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #3D3D3D;
+    border-radius: 4px;
+    background: #1E1E1E;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #4A7C59;
+    border-color: #4A7C59;
+}
+
+/* === Tooltips & Dialogs === */
+QToolTip {
+    background-color: #1E1E1E;
+    color: #EAEAEA;
+    border: 1px solid #2D2D2D;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+QMessageBox, QDialog {
+    background-color: #1A1A1A;
+}
+
+QPushButton#primary {
+    background-color: #4A7C59;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+}

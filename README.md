@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⏱ Study Focus
 
 **Study Focus** is a minimal, calm, and distraction-free productivity application built for Linux. It combines habit tracking, task management, and focus sessions with a premium, dark-mode aesthetic.
@@ -59,3 +60,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Inspired by premium productivity tools and minimalist design philosophies.
 - Icons powered by native Unicode symbols for high-performance rendering.
+=======
+# Focus-Goals
+Study Focus is a calm, open-source productivity app that combines habits, tasks, scheduling, and a focus clock into a distraction-free system. Built for clarity and discipline, not noise. Developers are invited to improve it thoughtfully.
+>>>>>>> 3e3de94dfebdcc104a0c4068ae99cbef2a4b7240

@@ -24,7 +24,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/study-focus.git
+   git clone https://github.com/Dhankhar-shab/Focus-Goals.git
    cd study-focus
    ```
 

@@ -1,66 +1,81 @@
-<<<<<<< HEAD
-# ⏱ Study Focus
+# Study Focus
 
-**Study Focus** is a minimal, calm, and distraction-free productivity application built for Linux. It combines habit tracking, task management, and focus sessions with a premium, dark-mode aesthetic.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/Framework-PySide6-41CD52.svg" alt="Framework">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+  <img src="https://img.shields.io/badge/UI-Apple--Style-white.svg" alt="Design">
+</p>
 
-![Study Focus Screenshot](https://via.placeholder.com/1280x820.png?text=Study+Focus+Premium+UI) *Note: Replace with actual screenshot before publishing.*
+**Study Focus** is a minimal, calm, and professional Linux desktop productivity suite designed to help you maintain deep work through a balanced design system. Inspired by Apple's aesthetic, it integrates habit tracking, task management, and focus sessions into a unified, distraction-free interface.
 
-## ✨ Features
+---
 
-- **🎯 Focus System**: Toggle between Pomodoro sessions and scheduled Time Blocks.
-- **✓ Habit Matrix**: Track your daily discipline with a monthly grid view and performance graphs.
-- **📋 Task Board**: Manage your to-do list with "Top 3" highlighting and priority-based sorting.
-- **📅 Calendar Integration**: A full-featured calendar with event management and chronological sidebar.
-- **🏆 Rewards Shop**: Earn points for completing tasks and habits, then redeem them for custom rewards.
-- **🌙 Premium Dark Theme**: A sleek, Mac-inspired "traffic light" interface with SF Pro typography.
+## ✨ Key Features
 
-## 🚀 Getting Started
+- 🕒 **Minimal Focus Timer**: Pomodoro and Time Block modes with a beautiful flip-clock interface.
+- ✅ **Intelligent Task Manager**: Organize your daily objectives with ease.
+- 🧘 **Habit Tracker**: Build long-term discipline with monthly visualizations and streak tracking.
+- 📊 **Dashboard & Analytics**: Track your progress and earn rewards for consistent study sessions.
+- 🎨 **Dark Discipline Design**: A custom system-ui inspired design system using 'SF Pro' typography and muted green accents.
 
-### Prerequisites
-- Python 3.8+
-- PySide6
+---
 
-### Installation
+## 🚀 Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Dhankhar-shab/Focus-Goals.git
-   cd study-focus
-   ```
+Ensure you have Python 3.8 or higher installed on your system.
 
-2. Create a virtual environment and install dependencies:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   ```
+### 1. Clone the repository
+```bash
+git clone https://github.com/Dhankhar-shab/Focus-Goals.git
+cd Focus-Goals
+```
 
-3. Run the application:
-   ```bash
-   python3 main.py
-   ```
+### 2. Create a virtual environment (Recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-## 🛠 Project Structure
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-- `main.py`: Entry point for the application.
-- `src/ui/`: Contains all PySide6 UI components and stylesheets.
-- `src/database.py`: Manages SQLite persistence and data logic.
-- `src/focus_manager.py`: Core logic for time-tracking and focus sessions.
-- `data/`: Directory for local storage (auto-generated).
+---
 
-## 🎨 Theme & Customization
+## 🛠️ Usage
 
-The application uses a custom CSS system defined in `src/ui/styles.qss`. You can modify colors, fonts, and spacing there to match your personal preference.
+To launch the application, simply run the `main.py` file:
 
-## 📜 License
+```bash
+python main.py
+```
+
+### Modules:
+- **Dashboard**: Overview of your current focus levels and habit streaks.
+- **Focus**: Start a Pomodoro timer or a timed focus block.
+- **Habits**: Log and track your daily habits in a clean calendar view.
+- **Tasks**: Manage your immediate to-do list.
+- **Rewards**: View your accumulated points and unlocked milestones.
+
+---
+
+## 💻 Tech Stack
+
+- **Language**: Python 3
+- **GUI Framework**: PySide6 (Qt for Python)
+- **Database**: SQLite (managed via a custom `DatabaseManager`)
+- **Styling**: Custom QSS (Qt Style Sheets) for the "Dark Discipline" theme.
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+---
 
-- Inspired by premium productivity tools and minimalist design philosophies.
-- Icons powered by native Unicode symbols for high-performance rendering.
-=======
-# Focus-Goals
-Study Focus is a calm, open-source productivity app that combines habits, tasks, scheduling, and a focus clock into a distraction-free system. Built for clarity and discipline, not noise. Developers are invited to improve it thoughtfully.
->>>>>>> 3e3de94dfebdcc104a0c4068ae99cbef2a4b7240
+<p align="center">
+  <i>Designed for deep work. Built for discipline.</i>
+</p>
